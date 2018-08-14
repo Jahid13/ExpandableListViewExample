@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ExpandableListView
+        android:id="@+id/expandable_list_view"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:layout_width="match_parent"
+        android:divider = "@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+    </ExpandableListView>
+
+</android.support.constraint.ConstraintLayout>
